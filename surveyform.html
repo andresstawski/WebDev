@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="surveyform.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Happy_smiley_face.png/800px-Happy_smiley_face.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portafolio Webpage</title>
+    <title>Survey Form</title>
 </head>
-<body>
-    <nav id="navbar">
-        <a href="#">About</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
-    </nav>
+
+<body id="body">
+    <main id="main">
+    <div id="title-description">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take a minute to complete the survey</p>
+    </div>
+
+    <div id="after-description">
     
-    <section id="welcome-section">
-            <h1>Welcome Section</h1>
-            <h2>Description</h2>        
-        </div>
-    </section>
+        <form action="#" id="survey-form">
+        <label id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required><br>
+        <label id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required><br>
+        <label id="number-label">Age:</label>
+        <input id="number" type="number" placeholder="Age" min="0" max="120">
+        
+    <div id="doomsday-div">
+        <label id="dropdown" for="dommsday">Best doomsday prediction year:</label><br>
+        <select name="doomsday">
+            <option>2040</option>
+            <option>2012</option>
+            <option>2000</option>
+            <option>1666</option>
+            <option>other</option>
+        </select>
+    </div>    
+        
+    <div>
+        <label id="select-hit" for="radio">Select the 3 options that hit harder:</label><br>
+        <input value="hit" name="hit" type="checkbox">Truck</input><br>
+        <input value="hit" name="hit" type="checkbox">Viagra</input><br>
+        <input value="hit" name="hit" type="checkbox">Jager Bomb</input><br>
+        <input value="hit" name="hit" type="checkbox">Your mom's sandal</input><br>
+        <input value="hit" name="hit" type="checkbox">Tyson Fury</input>
+    </div>
     
-    <h1 id="projects-title">Some of my projects</h1>
-    <section id="projects">
-        <div class="project-tile" href="#">
-            <a href="tributepage.html"><img src="images/Bugs.jpg"></a>
-            <h3>Tribute Page</h3>
-        </div>
+<div>
+<textarea id="comments" type="textarea" placeholder="Additional comments"></textarea>
+</div> 
+  
+    <div>
+        <button id="submit">Submit</button>
+    </div>
+    </form>
 
-        <div class="project-tile" href="#">
-            <a href="surveyform.html"><img src="images/Survey.jpg"></a>
-            <h3>Survey Form</h3>
-        </div>
-
-        <div class="project-tile" href="#">
-            <a href="techdoc.html"><img src="images/techdoc.jpg"></a>
-            <h3>Technical Domunentation Page</h3>
-        </div>
-
-        <div class="project-tile" href="#">
-            <a href="todolist.html"><img src="images/todo.jpg"></a>
-            <h3>To Do List Generator</h3>
-        </div>
-    </section>
-
-    <link id="links">
-        <a id="profile-link" href="https://github.com/andresstawski" target="_blank">Github or something</a>
-    
-
+    </div>
+</main>
 </body>
 </html>
