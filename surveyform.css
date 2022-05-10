@@ -1,0 +1,132 @@
+* {
+    font-family: Oswald, sans-serif;
+}
+
+#body {
+    background-color: bisque;
+}
+
+#title-description {
+    font-family: Oswald, sans-serif;
+    font-weight: bolder;
+    background-color: salmon;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 0.7rem;
+    padding-top: 2px;
+    margin-bottom: 0.5rem;
+}
+
+#after-description {
+    background-color: lightblue;
+    padding: 1.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: Oswald, sans-serif;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#survey-form {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+#name {
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 60%;
+    font-size: auto;
+}
+
+#name::placeholder {
+    font-size: medium;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+#email {
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 60%;
+    font-size: auto;
+}
+
+#email::placeholder {
+    font-size: medium;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+#number {
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+    width: 60%;
+    font-size: auto;
+}
+
+#number::placeholder {
+    font-size: medium;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+
+#name-label{
+    font-size: 3vh;
+}
+
+#email-label{
+    font-size: 3vh;
+}
+
+#number-label{
+    font-size: 3vh;
+}
+
+#doomsday-div {
+    margin: 1rem;
+    font-size: 2.4vh;
+}
+
+#select-hit {
+    font-size: 2vh;
+}
+
+#comments {
+    display: block;
+    margin: 3rem auto 3rem auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(49, 49, 173);
+    color: white;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#submit:active {
+    background-color: rgb(66, 163, 207);
+}
